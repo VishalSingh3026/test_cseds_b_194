@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:cadetblue;
+}
+.joke-container {
+    text-align: center;
+    padding: 30px;
+    border: solid black;
+    border-radius: 10px;
+    background-color:bisque;
+    width: 500px;
+}
+/* .joke-container h2 {
+    margin-top: 0;
+} */
+.joke-box {
+    padding: 15px;
+    margin: 15px 0;
+    background-color:dimgray;
+    min-height: 50px;
+}
+.character-count {
+    font-size: 12px;
+    color:;
+}
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+.button-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+}
+.get-joke {
+    background-color:green;
+}
+.clear-joke {
+    background-color: red;
+}
